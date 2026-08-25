@@ -26,9 +26,9 @@ body {
 
 }
 
-.msg.erro {
-  background: #f8d7da;
-  color: #721c24;
+.mensagem.erro {
+  background: #ccabae;
+  color: #a32430;
 }
 
 
@@ -47,7 +47,7 @@ body {
   text-align: center;
   color: #9f5da3;
   font-size: 18px;
-
+  
 }
 
 form {

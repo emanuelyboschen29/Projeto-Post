@@ -41,7 +41,7 @@ async function buscarPosts() {
     });
 
   } catch (error) {
-    erro.textContent = "Não foi possível carregar os posts.";
+    erro.textContent = "Ah, que pena! Não foi possível carregar os posts.";
     console.error(error);
 
   } finally {
