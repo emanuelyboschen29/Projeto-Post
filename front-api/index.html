@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Posts</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="main">
+    
+    <h1 class="titulo-principal"> Posts</h1>
+
+
+    <div id="loading" class="msg"></div>
+    <div id="erro" class="msg erro"></div>
+
+    <div class="form">
+      <div class="coluna-form">
+        <div class="bloco">
+          <h2>Novo Post</h2>
+          
+          <form id="formulario">
+            <input type="text" id="titulo" placeholder="Título" required>
+            <textarea id="corpo" placeholder="Corpo do post" required></textarea>
+            <button type="submit">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+
+    <div>
+
+
+      <div class="coluna">
+        <div class="bloco">
+          <h2>Meus Posts</h2>
+          <div id="novos-posts"></div>
+        </div>
+      </div>
+
+
+      <div class="coluna">
+        <div class="bloco">
+          <h2>Posts da API</h2>
+          <div id="posts"></div>
+        </div>
+      </div>
+      <hr>
+    </div>
+
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.2/axios.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
